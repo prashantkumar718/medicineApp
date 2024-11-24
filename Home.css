@@ -1,0 +1,26 @@
+body{
+    background-image: url(/src/bck1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+  }
+  
+  .home-container::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .home-container::-webkit-scrollbar-thumb {
+    background-color: #7454de;
+    border-radius: 4px;
+  }
+  
+  .home-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  

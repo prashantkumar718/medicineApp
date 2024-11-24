@@ -1,0 +1,20 @@
+/* Navbar.css */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #3e7ce7;
+    color: rgb(255, 255, 255);
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
